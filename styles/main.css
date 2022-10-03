@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Estilos para la página "Home" */
+/* Estilos para el encabezado */
+.encabezadoHome{
+    background-image:url("../media/imagen-01.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 600px;
+    display: grid;
+    grid-template-columns:70%;
+    grid-template-rows:70%;
+    grid-template-areas: "encabezadoHomeTexto";
+    justify-content:right;
+    justify-items:center;
+    align-items:center;
+}
+.encabezadoHomeTexto{
+    height: 150px;
+    width: 150px;
+    grid-template-areas: encabezadoHomeTexto;
+}
+.texto{
+    font-family: Helvetica;
+    font-size: 80px;
+}
+
+/* Estilos para la página "Servicios"*/
+/* Estilos para el encabezado*/
+.encabezadoServicios{
+    background-image: url(../media/imagen-02.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+/* Estilos para la página "Productos"*/
+
+/*Estilos para el encabezado*/
+
+.encabezadoProductos{
+    height: 600px;
+    background-image: url(../media/imagen-03.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.tituloEncabezadoProductos{
+    font-family: Helvetica;
+    font-size: 80px;
+    text-align: center;
+    color: red;
+    padding-top: 400px;
+}
+
+/*Estilos para el contenido*/
+
+main{
+    background-image: url(../media/fondo-02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tituloContenidoProductos{
+    font-family: Helvetica;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+.catalogoProductos{
+    padding: 20px;
+    justify-content: center;
+}
+.imagenProducto{
+    height: 50%;
+    width: 50%;
+}
+
+
+
